@@ -5,8 +5,8 @@ import PatientDetails from './pages/PatientDetails';
 import GenomicAnalysis from './pages/GenomicAnalysis';
 import FileManagement from './pages/FileManagement';
 
-const A2_API = 'http://127.0.0.1:8000/api';
-const A3_API = 'http://127.0.0.1:8001/api';
+const A2_API = import.meta.env.VITE_A2_API || 'http://127.0.0.1:8000/api';
+const A3_API = import.meta.env.VITE_A3_API || 'http://127.0.0.1:8001/api';
 
 type Page = 'dashboard' | 'patient' | 'genomics' | 'files' | 'analysis';
 
