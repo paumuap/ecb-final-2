@@ -4,3 +4,4 @@ biopython>=1.87
 requests>=2.32.0
 python-dotenv>=1.2.2
 pydantic>=2.0.0
+python-multipart>=0.0.7
