@@ -1442,9 +1442,6 @@ table tr:hover {
     flex-direction: column;
   }
 }
-  flex-direction: column;
-  gap: 15px;
-}
 
 .auth-box input {
   padding: 12px;
