@@ -1,0 +1,6 @@
+fastapi>=0.136.3
+uvicorn[standard]>=0.49.0
+biopython>=1.87
+requests>=2.32.0
+python-dotenv>=1.2.2
+pydantic>=2.0.0
